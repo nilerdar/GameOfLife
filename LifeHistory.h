@@ -1,6 +1,6 @@
 
-#ifndef C___LEARN_LIFEHISTORY_H
-#define C___LEARN_LIFEHISTORY_H
+#ifndef GAME_OF_LIFE_LIFEHISTORY_H
+#define GAME_OF_LIFE_LIFEHISTORY_H
 
 #include "Gen.h"
 
@@ -35,4 +35,4 @@ public:
 };
 
 
-#endif //C___LEARN_LIFEHISTORY_H
+#endif //GAME_OF_LIFE_LIFEHISTORY_H
