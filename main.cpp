@@ -5,6 +5,7 @@
 #include "Gen.h"
 #include "LifeHistory.h"
 
+// Function to parse string type into integer
 int strtoint(std::string str) {
     int cont = 0, res = 0;
     for (int i = 0; i < str.length(); ++i) {
@@ -17,6 +18,7 @@ int strtoint(std::string str) {
     return res;
 }
 
+//  Function that returns the lenght of an array
 int index(std::string text, char pattern) {
     int cont = 0;
     for (int i = 0; i < text.length(); ++i) {
@@ -27,7 +29,7 @@ int index(std::string text, char pattern) {
     return cont;
 }
 
-
+// Initial configuration of the game settings, it reads the bg.txt file where the parameters of generation are stored
 Gen initConfig(std::string text) {
     std::string::size_type sz;
     std::string myText;
