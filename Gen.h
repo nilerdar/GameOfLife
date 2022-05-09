@@ -1,13 +1,15 @@
-#ifndef C___LEARN_GEN_H
-#define C___LEARN_GEN_H
+#ifndef GAME_OF_LIFE_H
+#define GAME_OF_LIFE_H
 
+// Generation parameters are specified here
 class Gen {
 private:
     bool **tablero;
     int size;
 public:
     Gen() = default;;
-
+    
+    // Constructor to build the array filled with booleans 
     Gen(int x) {
         size = x;
         tablero = new bool *[size];
@@ -26,7 +28,8 @@ public:
     bool **getTablero() {
         return tablero;
     }
-
+    
+    // Switches a cell state
     void setCell(int x, int y, bool state) {
         tablero[x][y] = state;
     }
@@ -87,4 +90,4 @@ public:
 
 };
 
-#endif //C___LEARN_GEN_H
+#endif //GAME_OF_LIFE_H
