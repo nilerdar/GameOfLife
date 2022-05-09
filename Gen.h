@@ -1,5 +1,5 @@
-#ifndef GAME_OF_LIFE_H
-#define GAME_OF_LIFE_H
+#ifndef GAME_OF_LIFE_GEN_H
+#define GAME_OF_LIFE_GEN_H
 
 // Generation parameters are specified here
 class Gen {
@@ -90,4 +90,4 @@ public:
 
 };
 
-#endif //GAME_OF_LIFE_H
+#endif //GAME_OF_LIFE_GEN_H
